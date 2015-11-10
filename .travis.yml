@@ -1,3 +1,10 @@
 language: java
 jdk:
-  - oraclejdk7
+- oraclejdk7
+deploy:
+  provider: heroku
+  api_key:
+    secure: 5XkRR9yfrCcDSGqB+yZLlZcgYEPxZtq7gYLTtQJXtiq81cwXx9YjEjWiNFZYHU/v+d7BTXed4sajgQLniCYQjN/8yyJ7Zpena0YskgPJfT1JAnMv07Oik9X0OM8jUkdKW9bDGOisQIbwhxkSxISegMM2QkqXa/YO3b+pODGtEMcC/+35RNvUBqh4u2qBHqJ+5uuWIcge2QNvEEgrjrcIWn9PAlOcWpYc7IVJ4DYV2+PQWZbUdlpnsnVdIRuzDpNI+qbGIe34bOuJ530GwDBwrWxtj48U3jCXMDya0p/O+TUExJULxsNGaQtCSNEXP0GY+32r6XAbFYauKvf5XqmG09jkA/q6iy0vQRqXl+/ngLgi1lYv5hTpzGtkXkPUDCiaCJCJkplyggPKFTPrZ/L7rQovvEUVsnl4s0eLL7bZQ6n3rSUgbHasLo/wld6LBxgjGmBo9xEpSZpwDdtbJiYyQ5l8LFQlnf7bADG2HdFi3t5XQVVT2byyTdII4hsJHCJeHJeCB8c1943fCiB6D6MRL1BarB3zQIOrB3Xg/RSuGgEEyqYQukTGDzl8Bt3MuqOHk+dGDq8nKuDHOp5/Kr73Nw9QCDnvxqjyYGR7GN9ReG+ezh7/djY7mgOiygJlNKz+bn6jR7XpOsz3AQu+z88XIRR1haqziDNSb/wzuX8lUok=
+  app: test-gitravis-web
+  on:
+    repo: reachrkr/github--demo-web-app
