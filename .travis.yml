@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - oraclejdk7
+deploy:
+  provider: heroku
+  app: github--demo-web-app
+  on:
+    repo: reachrkr/github--demo-web-app 
