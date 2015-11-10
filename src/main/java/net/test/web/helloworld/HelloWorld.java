@@ -1,4 +1,4 @@
-package net.chrissearle.web.helloworld;
+package net.test.web.helloworld;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;

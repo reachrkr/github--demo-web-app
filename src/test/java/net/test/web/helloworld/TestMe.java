@@ -1,4 +1,4 @@
-package net.chrissearle.web.helloworld;
+package net.test.web.helloworld;
 
 import org.junit.Test;
 
